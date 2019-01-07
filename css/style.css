@@ -1,6 +1,7 @@
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
     margin: 0;
     padding: 0;
+    height: auto;
 }
 
 table {
@@ -138,6 +139,11 @@ blockquote p:before {
 img {
     max-width: 100%;
     height: auto;
+}
+
+img[alt="Hai Nguyen"] {
+  position: relative;
+  top: -100px;
 }
 
 /* ===[ Layout Styles ]===================================================== */
@@ -1363,13 +1369,13 @@ h3#comments {
     color: #60BDDB;
 }
 
-
 .section .column {
     width: 33%;
     margin: 0 0 3% 0;
     float: left;
     padding-left: 4%;
     margin-bottom: 3%;
+    height: auto;
 }
 
 .section .column.fourth{
