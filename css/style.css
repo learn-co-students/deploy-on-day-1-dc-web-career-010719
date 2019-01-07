@@ -140,6 +140,16 @@ img {
     height: auto;
 }
 
+img[alt="andrea-williams"] {
+  position: relative;
+  top: -100px;
+}
+
+img[alt="andrea_profile"] {
+  position: relative;
+  top: -100px;
+}
+
 /* ===[ Layout Styles ]===================================================== */
 
 .main-wrapper {
